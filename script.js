@@ -18,7 +18,7 @@ function getRandomColor() {
 function logColorHistory(color) {
     const historyList = document.getElementById('historyList');
     const listItem = document.createElement('li');
-    listItem.textContent = color;
+    // listItem.textContent = color;
     listItem.style.backgroundColor = color;
     listItem.style.color = getContrastingColor(color);
     historyList.appendChild(listItem);
